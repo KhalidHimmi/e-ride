@@ -21,10 +21,10 @@ export class HomeoneBannerComponent implements OnInit {
     objectsArray: any = [];
     resetOption: any;
     config = {
-        displayKey: "name",
+        displayKey: "name", //"ville",
         search: true
     };
-    /* options = [
+    options = [
         // Type here your category name
         {
             name: "Restaurants",
@@ -44,7 +44,7 @@ export class HomeoneBannerComponent implements OnInit {
         {
             name: "Bookstore",
         }
-    ]; */
+    ];
     searchChange($event) {
         console.log($event);
     }
