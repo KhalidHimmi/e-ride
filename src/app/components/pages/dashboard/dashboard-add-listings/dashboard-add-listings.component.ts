@@ -14,8 +14,8 @@ export class DashboardAddListingsComponent implements OnInit {
     
     breadcrumb = [
         {
-            title: 'Add Listings',
-            subTitle: 'Dashboard'
+            title: 'Ajouter des annonces',
+            subTitle: 'Tableau de bord'
         }
     ]
 

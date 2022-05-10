@@ -16,7 +16,7 @@ export class DashboardMyListingsComponent implements OnInit {
 
     breadcrumb = [
         {
-            title: 'My Listings',
+            title: 'Mes annonces',
             subTitle: 'Tableau de bord'
         }
     ]
@@ -98,12 +98,12 @@ export class DashboardMyListingsComponent implements OnInit {
             bookmarkLink: 'single-listings',
             detailsLink: 'single-listings',
             category: 'Restaurant',
-            location: 'New York, USA',
+            location: 'New York',
             title: 'Chipotle Mexican Grill',
             price: 'Start From: $150',
             authorImg: 'assets/img/user1.jpg',
             authorName: 'Taylor',
-            openORclose: 'Open Now',
+            openORclose: 'Ouvrez maintenant',
             extraClass: 'status-open',
             rating: [
                 {
@@ -140,7 +140,7 @@ export class DashboardMyListingsComponent implements OnInit {
             location: 'Los Angeles, USA',
             title: 'The Beverly Hills Hotel',
             price: 'Start From: $200',
-            openORclose: 'Open Now',
+            openORclose: 'Ouvrez maintenant',
             extraClass: 'status-open',
             authorImg: 'assets/img/user2.jpg',
             authorName: 'Sarah',
@@ -176,7 +176,7 @@ export class DashboardMyListingsComponent implements OnInit {
             location: 'Bangkok, Thailand',
             title: 'Central Shopping Center',
             price: 'Start From: $110',
-            openORclose: 'Close Now',
+            openORclose: 'Fermer maintenant',
             extraClass: 'status-close',
             authorImg: 'assets/img/user3.jpg',
             authorName: 'James',
@@ -215,7 +215,7 @@ export class DashboardMyListingsComponent implements OnInit {
             location: 'Suwanee, USA',
             title: 'Vesax Beauty Center',
             price: 'Start From: $100',
-            openORclose: 'Open Now',
+            openORclose: 'Fermer maintenant',
             extraClass: 'status-open',
             authorImg: 'assets/img/user4.jpg',
             authorName: 'Andy',

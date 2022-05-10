@@ -6,7 +6,7 @@ import { SelectDropDownModule } from 'ngx-select-dropdown';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
-
+import {HttpClient, HttpClientModule} from '@angular/common/http'; 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeDemoOneComponent } from './components/pages/home-demo-one/home-demo-one.component';
@@ -117,6 +117,7 @@ import { DashboardMyListingsComponent } from './components/pages/dashboard/dashb
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
+    HttpClientModule,
     SelectDropDownModule,
     NgxTypedJsModule,
     FormsModule,

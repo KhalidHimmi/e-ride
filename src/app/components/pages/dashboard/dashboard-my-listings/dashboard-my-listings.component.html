@@ -42,19 +42,18 @@
                                 <span>{{Content.authorName}}</span>
                             </div>
                         </div>
-                        <ul class="listings-meta">
+                        <!-- <ul class="listings-meta">
                             <li><a routerLink="/{{Content.categoryLink}}"><i class="flaticon-furniture-and-household"></i> Restaurant</a></li>
-                            <li><i class="flaticon-pin"></i> {{Content.location}}</li>
-                        </ul>
-                        <h3><a routerLink="/{{Content.detailsLink}}">{{Content.title}}</a></h3>
+                            <li><i class="flaticon-pin"></i>{{Content.location}}</li>
+                        </ul> -->
+                        <!-- <h3><a routerLink="/{{Content.detailsLink}}">{{Content.title}}</a></h3> -->
+                        <h3 class="mt-2"><a><i class="flaticon-pin" style="color:#0ec6c6; font-size: 17px;"></i>{{Content.location}} <i class="flaticon-right-arrow s2" style="color:#0ec6c6;"></i><i class="flaticon-pin" style="color:#0ec6c6;font-size: 17px;"></i>{{Content.location}}</a></h3>
+                        <!-- <h3 class="mt-2"><a>De {{Content.location}} à {{Content.location}}</a></h3> -->
                         <span class="status {{Content.extraClass}}"><i class="flaticon-save"></i> {{Content.openORclose}}</span>
                         <div class="d-flex align-items-center justify-content-between">
                             <div class="rating">
                                 <i class='{{Star.icon}}' *ngFor="let Star of Content.rating;"></i>
                                 <span class="count">({{Content.ratingCount}})</span>
-                            </div>
-                            <div class="price">
-                                {{Content.price}}
                             </div>
                         </div>
                     </div>
