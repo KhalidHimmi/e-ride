@@ -9,14 +9,14 @@
                 <div class="col-lg-4 col-md-12 p-0">
                     <div class="form-group">
                         <label><i class="flaticon-search"></i></label>
-                        <input type="text" class="form-control" placeholder="What are you looking for?">
+                        <input type="text" class="form-control" placeholder="Qu'est-ce que vous cherchez ?">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 p-0">
                     <div class="form-group">
                         <label><i class="flaticon-pin"></i></label>
-                        <input type="text" class="form-control" placeholder="Location">
+                        <input type="text" class="form-control" placeholder="Localisation">
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@
 
                 <div class="col-lg-2 col-md-12 p-0">
                     <div class="submit-btn">
-                        <button type="submit">Search Now</button>
+                        <button type="submit">Chercher maintenant</button>
                     </div>
                 </div>
             </div>
@@ -182,13 +182,13 @@
             <div class="col-lg-8 col-md-12">
                 <div class="listings-grid-sorting row align-items-center">
                     <div class="col-lg-5 col-md-6 result-count">
-                        <p>We found <span class="count">9</span> listings available for you</p>
+                        <p>Nous avons trouvé <span class="count">9</span> des annonces disponibles pour vous</p>
                     </div>
 
                     <div class="col-lg-7 col-md-6 ordering">
                         <div class="d-flex justify-content-end">
                             <div class="select-box">
-                                <label>Sort By:</label>
+                                <label>Trier par:</label>
                                 <ngx-select-dropdown (searchChange)="searchChange($event)" name="ordering-select" tabindex="0" [multiple]="false" [(ngModel)]="singleSelect" [config]="config" [options]="options2"></ngx-select-dropdown>
                             </div>
                         </div>

@@ -15,7 +15,7 @@ export class FunfactsComponent implements OnInit {
     singleFunfacts = [
         {
             icon: 'bx bx-bullseye',
-            title: 'New Visitors',
+            title: 'Nouveaux visiteurs',
             subTitle: '1421'
         },
         {
@@ -25,7 +25,7 @@ export class FunfactsComponent implements OnInit {
         },
         {
             icon: 'bx bx-shape-polygon',
-            title: 'Listings',
+            title: 'Annonces',
             subTitle: '1034'
         },
         {

@@ -114,7 +114,7 @@ export class GridListingsFullWidthComponent implements OnInit {
             price: 'Start From: $150',
             authorImg: 'assets/img/user1.jpg',
             authorName: 'Taylor',
-            openORclose: 'Open Now',
+            openORclose: 'Ouvert maintenant',
             extraClass: 'status-open',
             rating: [
                 {

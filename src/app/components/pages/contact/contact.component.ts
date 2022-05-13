@@ -36,13 +36,13 @@ export class ContactComponent implements OnInit {
         },
         {
             icon: 'bx bx-time-five',
-            title: 'Hours of Operation',
+            title: 'Heures d\'ouverture',
             info: [
                 {
-                    text: 'Monday - Friday: 09:00 - 20:00'
+                    text: 'Lundi - Vendredi: 09:00 - 20:00'
                 },
                 {
-                    text: 'Sunday & Saturday: 10:30 - 22:00'
+                    text: 'Samedi & Dimanche: 10:30 - 22:00'
                 }
             ]
         }
@@ -50,8 +50,8 @@ export class ContactComponent implements OnInit {
 
     sectionTitle = [
         {
-            title: 'Ready to Get Started?',
-            paragraph: 'Your email address will not be published. Required fields are marked *'
+            title: 'Vous êtes prêt à commencer ?',
+            paragraph: 'Votre adresse e-mail ne sera pas publiée. Les champs obligatoires sont marqués *'
         }
     ]
 

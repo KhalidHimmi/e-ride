@@ -15,7 +15,7 @@ export class FeedbackStyleOneComponent implements OnInit {
 
     sectionTitle = [
         {
-            title: 'User’s Feedback About Us',
+            title: 'Commentaires des utilisateurs à propos de nous',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.'
         }
     ]
@@ -93,7 +93,7 @@ export class FeedbackStyleOneComponent implements OnInit {
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus viverra maecenas accumsan.',
             authorImg: 'assets/img/user4.jpg',
             authorName: 'Andy James',
-            authorDesignation: 'Traveler',
+            authorDesignation: 'Voyageur',
             rating: [
                 {
                     icon: 'bx bxs-star'

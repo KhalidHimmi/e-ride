@@ -14,7 +14,7 @@ export class HowItWorksPageComponent implements OnInit {
 
     pageTitleContent = [
         {
-            title: 'How it works',
+            title: 'Comment ça fonctionne',
             backgroundImage: 'assets/img/page-title/page-title5.jpg'
         }
     ]
@@ -22,37 +22,37 @@ export class HowItWorksPageComponent implements OnInit {
     timelineContent = [
         {
             number: '1',
-            title: 'Submit Listings',
+            title: 'Soumettre des annonces',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-            buttonText: 'Submit Now',
+            buttonText: 'Soumettrez maintenant',
             buttonLink: '#'
         },
         {
             number: '2',
             title: 'Choose Your Package',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-            buttonText: 'Choose Now',
+            buttonText: 'Choisissez maintenant',
             buttonLink: '#'
         },
         {
             number: '3',
-            title: 'Login to My Account',
+            title: 'Se connecter à Mon compte',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-            buttonText: 'Login Now',
+            buttonText: 'Connectez-vous maintenant',
             buttonLink: '#'
         },
         {
             number: '4',
-            title: 'Submit Listing - Free or Paid',
+            title: 'Soumettre l\'annonce - Free or Paid',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-            buttonText: 'Choose Now',
+            buttonText: 'Choisissez maintenant',
             buttonLink: '#'
         },
         {
             number: '5',
-            title: 'Admin Approves',
+            title: 'Admin approuve',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.',
-            buttonText: 'Browse Now',
+            buttonText: 'Naviguez maintenan',
             buttonLink: '#'
         }
     ]

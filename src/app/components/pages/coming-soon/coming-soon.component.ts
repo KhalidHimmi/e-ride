@@ -23,7 +23,7 @@ export class ComingSoonComponent implements OnInit {
 
     comingSoonContent = [
         {
-            title: 'We Are Launching Soon'
+            title: 'Nous lançons bientôt'
         }
     ]
 

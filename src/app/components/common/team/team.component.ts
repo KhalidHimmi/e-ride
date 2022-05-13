@@ -14,7 +14,7 @@ export class TeamComponent implements OnInit {
 
     sectionTitle = [
         {
-            title: 'Meet Our Awesome Team',
+            title: 'Rencontrez notre formidable équipe',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.'
         }
     ]

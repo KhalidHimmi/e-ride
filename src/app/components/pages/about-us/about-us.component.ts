@@ -14,13 +14,13 @@ export class AboutUsComponent implements OnInit {
     
     pageTitleContent = [
         {
-            title: 'About Us',
+            title: 'A propos de nous',
             backgroundImage: 'assets/img/page-title/page-title1.jpg'
         }
     ]
     aboutContent = [
         {
-            title: 'How We Were Established',
+            title: 'Comment nous avons été établis',
             subTitle: 'Check video presentation to find out more about us.',
             paragraph: [
                 {

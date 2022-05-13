@@ -14,7 +14,7 @@ export class CategoriesComponent implements OnInit {
     
     pageTitleContent = [
         {
-            title: 'Listings Category',
+            title: 'Catégorie des annonces',
             backgroundImage: 'assets/img/page-title/page-title2.jpg'
         }
     ]

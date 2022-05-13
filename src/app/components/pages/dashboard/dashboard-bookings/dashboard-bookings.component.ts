@@ -26,12 +26,12 @@ export class DashboardBookingsComponent implements OnInit {
             customerNumber: '+214 4455 6521',
             customerEmail: 'hello@james.com',
             title: 'Farmis Hotel & Restaurant',
-            bookingsStatus: 'Pending',
-            pendingApprovedCanceled: 'pending',
+            bookingsStatus: 'En attente',
+            pendingApprovedCanceled: 'En attente',
             bookingsInfo: [
                 {
                     icon: 'bx bx-map',
-                    title: 'Address',
+                    title: 'Addresse',
                     text: '40 Journal Square, NG USA',
                 },
                 {
@@ -62,12 +62,12 @@ export class DashboardBookingsComponent implements OnInit {
             customerNumber: '+214 4455 6521',
             customerEmail: 'hello@alina.com',
             title: 'Skyview Shopping Cente',
-            bookingsStatus: 'Approved',
-            pendingApprovedCanceled: 'approved',
+            bookingsStatus: 'Approuvé',
+            pendingApprovedCanceled: 'Approuvé',
             bookingsInfo: [
                 {
                     icon: 'bx bx-map',
-                    title: 'Address',
+                    title: 'Addresse',
                     text: '55 County Laois, Ireland',
                 },
                 {

@@ -14,7 +14,7 @@ export class FeaturesComponent implements OnInit {
 
     sectionTitle = [
         {
-            title: 'Your Small Business Start With Vesax',
+            title: 'Votre petit voyage commence avec Easy Ride',
             paragraph: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra.'
         }
     ]

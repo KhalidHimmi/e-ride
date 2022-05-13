@@ -17,7 +17,7 @@ export class AuthorProfileComponent implements OnInit {
 
     pageTitleContent = [
         {
-            title: 'Author',
+            title: 'Auteur',
             backgroundImage: 'assets/img/page-title/page-title1.jpg'
         }
     ]
@@ -36,8 +36,8 @@ export class AuthorProfileComponent implements OnInit {
             price: 'Start From: $121',
             detailsLink: 'single-listings',
             authorImg: 'assets/img/user1.jpg',
-            openORclose: 'Open Now',
-            extraClass: 'status-open',
+            openORclose: 'Ouvert maintenant',
+            extraClass: 'Statut-ouvert',
             authorName: 'James',
             rating: [
                 {
@@ -75,8 +75,8 @@ export class AuthorProfileComponent implements OnInit {
             price: 'Start From: $200',
             detailsLink: 'single-listings',
             authorImg: 'assets/img/user2.jpg',
-            openORclose: 'Open Now',
-            extraClass: 'status-open',
+            openORclose: 'Ouvert maintenant',
+            extraClass: 'statut-ouvert',
             authorName: 'Sarah',
             rating: [
                 {

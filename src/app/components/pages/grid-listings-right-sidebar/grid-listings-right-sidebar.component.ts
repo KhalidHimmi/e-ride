@@ -16,7 +16,7 @@ export class GridListingsRightSidebarComponent implements OnInit {
 
     pageTitleContent = [
         {
-            title: 'Find Popular Places'
+            title: 'Trouver des lieux populaires'
         }
     ]
 
@@ -60,16 +60,16 @@ export class GridListingsRightSidebarComponent implements OnInit {
     // Ordering Select
     options2 = [
         {
-            name: "Recommended",
+            name: "Recommandé",
         },
         {
-            name: "Default",
+            name: "Défaut",
         },
         {
-            name: "Popularity",
+            name: "Popularité",
         },
         {
-            name: "Latest",
+            name: "Les plus récents",
         },
         {
             name: "Price: low to high",
